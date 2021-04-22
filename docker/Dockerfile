@@ -51,6 +51,7 @@ RUN install2.r --error \
         binom \
         countrycode \
         cowplot \
+        drat \
         dplyr \
         epitrix \
         flexdashboard \
@@ -78,9 +79,12 @@ RUN install2.r --error \
         tibble \
         tidyr
 
-## TODO: needed but not found: ascertainr, assessr, weighter
-
 RUN install_packages --repo "https://ncov-ic.github.io/drat" \
-  rincewind
+        ascertainr \
+        assessr \
+        orderly.sharepoint \
+        orderlyweb \
+        rincewind \
+        weighter
 
 WORKDIR /orderly
