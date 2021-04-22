@@ -48,8 +48,6 @@ RUN install2.r --error \
         DT \
         EpiEstim \
         Hmisc \
-        ascertainr \
-        assessr \
         binom \
         countrycode \
         cowplot \
@@ -78,8 +76,9 @@ RUN install2.r --error \
         sp \
         stringr \
         tibble \
-        tidyr \
-        weighter
+        tidyr
+
+## TODO: needed but not found: ascertainr, assessr, weighter
 
 RUN install_packages --repo "https://ncov-ic.github.io/drat" \
   rincewind
