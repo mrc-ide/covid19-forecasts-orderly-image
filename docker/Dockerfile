@@ -32,7 +32,7 @@ RUN apt-get update && apt-get install -y \
         git \
         libcurl4-openssl-dev \
         libgdal-dev \
-        libgit2-dev
+        libgit2-dev \
         libgsl0-dev \
         libmagick++-dev \
         libssl-dev \
