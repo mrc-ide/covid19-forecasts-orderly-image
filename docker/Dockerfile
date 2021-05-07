@@ -33,6 +33,7 @@ RUN apt-get update && apt-get install -y \
         libcurl4-openssl-dev \
         libgdal-dev \
         libgit2-dev \
+        libglpk-dev \
         libgsl0-dev \
         libmagick++-dev \
         libssl-dev \
@@ -62,6 +63,7 @@ RUN install2.r --error \
         ggplot2 \
         ggpubr \
         ggrepel \
+        ggtext \
         glue \
         gridExtra \
         incidence \
@@ -70,6 +72,7 @@ RUN install2.r --error \
         projections \
         purrr \
         rmarkdown \
+        rstanarm \
         sf \
         shiny \
         slider \
