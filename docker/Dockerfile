@@ -61,6 +61,7 @@ RUN install2.r --error \
         ggforce \
         ggnewscale \
         ggplot2 \
+        ggpmisc \
         ggpubr \
         ggrepel \
         ggtext \
@@ -85,6 +86,7 @@ RUN install2.r --error \
 RUN install_packages --repo "https://ncov-ic.github.io/drat" \
         ascertainr \
         assessr \
+        jointlyr \
         orderly.sharepoint \
         orderlyweb \
         rincewind \
