@@ -83,7 +83,7 @@ RUN install2.r --error \
         tibble \
         tidyr
 
-RUN install_packages --repo "https://ncov-ic.github.io/drat" \
+RUN install_packages --repo "https://mrc-ide.r-universe.dev" \
         ascertainr \
         assessr \
         jointlyr \
